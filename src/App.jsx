@@ -382,6 +382,10 @@ const DATA = [
         text: `1. La Resurrección del Señor.\n2. La Ascensión de Jesús al cielo.\n3. La venida del Espíritu Santo.\n4. La Asunción de María al cielo.\n5. La Coronación de María como Reina del Cielo y de la Tierra.`,
       },
       {
+        title: "Letanías de los Santos",
+        text: `Señor, ten piedad. Cristo, ten piedad. Señor, ten piedad.\n\nSanta María, ruega por nosotros.\nSanta Madre de Dios, ruega por nosotros.\nSanta Virgen de las vírgenes, ruega por nosotros.\n\nSan Miguel, ruega por nosotros.\nSan Gabriel, ruega por nosotros.\nSan Rafael, ruega por nosotros.\nTodos los santos ángeles y arcángeles, rogad por nosotros.\n\nSan Juan Bautista, ruega por nosotros.\nSan José, ruega por nosotros.\nTodos los santos Patriarcas y Profetas, rogad por nosotros.\n\nSan Pedro, ruega por nosotros.\nSan Pablo, ruega por nosotros.\nSan Andrés, ruega por nosotros.\nSan Juan, ruega por nosotros.\nSanta María Magdalena, ruega por nosotros.\nSan Esteban, ruega por nosotros.\nSan Ignacio de Antioquía, ruega por nosotros.\nSan Lorenzo, ruega por nosotros.\nSantas Perpetua y Felícitas, rogad por nosotros.\nSanta Inés, ruega por nosotros.\nSan Gregorio, ruega por nosotros.\nSan Agustín, ruega por nosotros.\nSan Atanasio, ruega por nosotros.\nSan Basilio, ruega por nosotros.\nSan Martín, ruega por nosotros.\nSan Benito, ruega por nosotros.\nSan Francisco y Santo Domingo, rogad por nosotros.\nSan Francisco Javier, ruega por nosotros.\nSan Juan María Vianney, ruega por nosotros.\nSanta Catalina de Siena, ruega por nosotros.\nSanta Teresa de Jesús, ruega por nosotros.\nTodos los Santos y Santas de Dios, rogad por nosotros.\n\nSé propicio, perdónanos, Señor.\nSé propicio, escúchanos, Señor.\n\nDe todo mal, líbranos, Señor.\nDe todo pecado, líbranos, Señor.\nDe la muerte eterna, líbranos, Señor.\nPor tu Encarnación, líbranos, Señor.\nPor tu muerte y Resurrección, líbranos, Señor.\nPor el don del Espíritu Santo, líbranos, Señor.\n\nCordero de Dios, que quitas el pecado del mundo, perdónanos, Señor.\nCordero de Dios, que quitas el pecado del mundo, escúchanos, Señor.\nCordero de Dios, que quitas el pecado del mundo, ten piedad de nosotros.\n\nCristo, óyenos. Cristo, escúchanos.\nSeñor, ten piedad. Cristo, ten piedad. Señor, ten piedad.`,
+      },
+      {
         title: "El Ángelus",
         text: `V. El Ángel del Señor anunció a María.\nR. Y concibió por obra del Espíritu Santo.\n(Ave María)\n\nV. He aquí la esclava del Señor.\nR. Hágase en mí según tu palabra.\n(Ave María)\n\nV. Y el Verbo se hizo carne.\nR. Y habitó entre nosotros.\n(Ave María)\n\nV. Ruega por nosotros, Santa Madre de Dios.\nR. Para que seamos dignos de las promesas de Cristo.\n\nOremos: Te suplicamos, Señor, que derrames tu gracia en nuestras almas, para que, los que hemos conocido por el anuncio del Ángel la Encarnación de tu Hijo Jesucristo, lleguemos por los méritos de su Pasión y de su Cruz, a la gloria de la Resurrección. Por el mismo Cristo nuestro Señor. Amén.`,
       },
@@ -581,6 +585,83 @@ const DATA = [
       {
         title: "Pascua de Resurrección",
         text: `¡Cristo ha resucitado! ¡Verdaderamente ha resucitado, aleluya!\n\nSeñor resucitado, tú has vencido a la muerte y al pecado.\nTu victoria es nuestra victoria, tu vida es nuestra vida.\n\nLlena mi corazón de gozo pascual.\nQue viva como hijo de la luz,\ntestigo de tu Resurrección\ny portador de esperanza para el mundo. Amén.`,
+      },
+    ],
+  },
+  {
+    id: "novenas",
+    title: "Novenas",
+    subtitle: "Nueve días de oración",
+    icon: "candle",
+    accent: "#b8943d",
+    prayers: [
+      {
+        title: "Novena al Espíritu Santo — Introducción",
+        text: `La Novena al Espíritu Santo se reza durante los nueve días entre la Ascensión y Pentecostés, aunque puede rezarse en cualquier momento del año cuando se desea pedir los dones del Espíritu Santo.\n\nOración para cada día:\nVen, Espíritu Santo, llena los corazones de tus fieles y enciende en ellos el fuego de tu amor.\n\nV. Envía tu Espíritu y serán creados.\nR. Y renovarás la faz de la tierra.\n\nOremos: Oh Dios, que llenaste los corazones de tus fieles con la luz del Espíritu Santo, concédenos por el mismo Espíritu sentir con rectitud y gozar siempre de tu consuelo. Por Cristo nuestro Señor. Amén.`,
+      },
+      {
+        title: "Novena al Espíritu Santo — Días 1 al 3",
+        text: `DÍA 1 — Don de la Sabiduría:\nEspíritu Santo, Dios de amor, te pido el don de la SABIDURÍA. Dame gustar las cosas de Dios por encima de las del mundo. Que mi corazón no se apegue a nada que no sea eterno.\nVen, Espíritu Santo, llena los corazones de tus fieles y enciende en ellos el fuego de tu amor.\n(Padre Nuestro, Ave María, Gloria)\n\nDÍA 2 — Don del Entendimiento:\nEspíritu Santo, luz del alma, te pido el don del ENTENDIMIENTO. Ilumina mi mente para comprender las verdades de la fe. Que la Palabra de Dios penetre en mi corazón y dé fruto.\nVen, Espíritu Santo, llena los corazones de tus fieles y enciende en ellos el fuego de tu amor.\n(Padre Nuestro, Ave María, Gloria)\n\nDÍA 3 — Don del Consejo:\nEspíritu Santo, consejero fiel, te pido el don del CONSEJO. Guía mis decisiones y mis pasos. Que no me fíe solo de mi criterio, sino que busque siempre tu voluntad.\nVen, Espíritu Santo, llena los corazones de tus fieles y enciende en ellos el fuego de tu amor.\n(Padre Nuestro, Ave María, Gloria)`,
+      },
+      {
+        title: "Novena al Espíritu Santo — Días 4 al 6",
+        text: `DÍA 4 — Don de la Fortaleza:\nEspíritu Santo, fortaleza en la debilidad, te pido el don de la FORTALEZA. Dame valor para vivir como cristiano sin avergonzarme. Que sepa resistir las tentaciones y no desanimarme en el camino del bien.\nVen, Espíritu Santo, llena los corazones de tus fieles y enciende en ellos el fuego de tu amor.\n(Padre Nuestro, Ave María, Gloria)\n\nDÍA 5 — Don de la Ciencia:\nEspíritu Santo, maestro interior, te pido el don de la CIENCIA. Dame conocer la voluntad de Dios en las cosas de cada día. Que sepa leer los signos de los tiempos con ojos de fe.\nVen, Espíritu Santo, llena los corazones de tus fieles y enciende en ellos el fuego de tu amor.\n(Padre Nuestro, Ave María, Gloria)\n\nDÍA 6 — Don de la Piedad:\nEspíritu Santo, espíritu de filiación, te pido el don de la PIEDAD. Que trate a Dios como Padre, con confianza y amor filial. Que mi oración no sea un trámite, sino un encuentro.\nVen, Espíritu Santo, llena los corazones de tus fieles y enciende en ellos el fuego de tu amor.\n(Padre Nuestro, Ave María, Gloria)`,
+      },
+      {
+        title: "Novena al Espíritu Santo — Días 7 al 9",
+        text: `DÍA 7 — Don del Temor de Dios:\nEspíritu Santo, te pido el don del TEMOR DE DIOS. No el miedo servil, sino el amor reverente que no quiere ofender a quien tanto nos ama. Que prefiera perder todo antes que perder la gracia de Dios.\nVen, Espíritu Santo, llena los corazones de tus fieles y enciende en ellos el fuego de tu amor.\n(Padre Nuestro, Ave María, Gloria)\n\nDÍA 8 — Los frutos del Espíritu:\nEspíritu Santo, fuente de todo bien, te pido los FRUTOS de tu presencia: caridad, gozo, paz, paciencia, benignidad, bondad, longanimidad, mansedumbre, fe, modestia, continencia y castidad. Que mi vida sea un jardín donde tú habites.\nVen, Espíritu Santo, llena los corazones de tus fieles y enciende en ellos el fuego de tu amor.\n(Padre Nuestro, Ave María, Gloria)\n\nDÍA 9 — Pentecostés personal:\nEspíritu Santo, como los apóstoles en el Cenáculo, me dispongo a recibirte plenamente. Ven sobre mí como viniste en Pentecostés. Renueva en mí el fuego del Bautismo y la Confirmación. Hazme testigo vivo de Jesucristo en el mundo.\nVen, Espíritu Santo, llena los corazones de tus fieles y enciende en ellos el fuego de tu amor. Envía tu Espíritu y serán creados, y renovarás la faz de la tierra.\n(Padre Nuestro, Ave María, Gloria)\nAmén.`,
+      },
+      {
+        title: "Novena a San José — Introducción",
+        text: `La Novena a San José se reza tradicionalmente antes del 19 de marzo (solemnidad de San José) o del 1 de mayo (San José Obrero), aunque puede rezarse en cualquier momento.\n\nOración para cada día:\nGlorioso San José, padre adoptivo de Jesús y esposo virginal de María, a ti acudo con confianza. Tú, que fuiste elegido por Dios para las más altas misiones, intercede por mí ante el Señor.\n\n(Seguir con la oración del día correspondiente)`,
+      },
+      {
+        title: "Novena a San José — Días 1 al 3",
+        text: `DÍA 1 — San José, hombre justo:\nSeñor, que José fue llamado "varón justo", concédeme la gracia de la rectitud en mis pensamientos, palabras y obras. Que mi vida sea honrada ante Dios y ante los hombres.\n(Padre Nuestro, Ave María, Gloria)\n\nDÍA 2 — San José, esposo fiel:\nSeñor, por la intercesión de José, protege los matrimonios y las familias. Que los esposos se amen como José amó a María: con fidelidad, respeto y entrega total.\n(Padre Nuestro, Ave María, Gloria)\n\nDÍA 3 — San José, padre protector:\nSeñor, que José protegió a Jesús y María de todos los peligros, que también proteja hoy a mi familia. Que ningún mal nos alcance bajo su amparo.\n(Padre Nuestro, Ave María, Gloria)`,
+      },
+      {
+        title: "Novena a San José — Días 4 al 6",
+        text: `DÍA 4 — San José, hombre del silencio:\nSeñor, en el Evangelio José no dice ninguna palabra, pero actúa con fe. Dame la gracia del silencio fecundo: escuchar más, hablar menos, actuar con fidelidad.\n(Padre Nuestro, Ave María, Gloria)\n\nDÍA 5 — San José, trabajador:\nSeñor, que José santificó el trabajo con sus manos, bendice mi trabajo y el de todos los que trabajan honradamente. Que ningún trabajador carezca de lo necesario.\n(Padre Nuestro, Ave María, Gloria)\n\nDÍA 6 — San José, hombre de fe:\nSeñor, José obedeció al ángel sin entender todo, fiándose solo de tu Palabra. Dame esa fe que actúa aunque no vea, que confía aunque no comprenda.\n(Padre Nuestro, Ave María, Gloria)`,
+      },
+      {
+        title: "Novena a San José — Días 7 al 9",
+        text: `DÍA 7 — San José, en el exilio:\nSeñor, José huyó a Egipto sin quejarse, cargando con la responsabilidad de proteger a Jesús y María. En mis momentos de dificultad y extrañeza, dame su fortaleza serena.\n(Padre Nuestro, Ave María, Gloria)\n\nDÍA 8 — San José, patrono de la buena muerte:\nSeñor, se cree que José murió entre los brazos de Jesús y María. Concédeme esa muerte feliz: morir en gracia, acompañado y en paz. San José, patrono de los agonizantes, ruega por mí.\n(Padre Nuestro, Ave María, Gloria)\n\nDÍA 9 — San José, patrono de la Iglesia universal:\nSeñor, que José protegió a la Sagrada Familia, protege hoy a tu Iglesia. Que los pastores sean fieles, los fieles santos y la Iglesia sea signo de tu amor en el mundo.\n(Padre Nuestro, Ave María, Gloria)\nAmén.`,
+      },
+      {
+        title: "Novena a la Divina Misericordia — Introducción",
+        text: `Esta novena fue dictada por Jesús a Santa Faustina Kowalska y se reza durante los nueve días previos al Domingo de la Divina Misericordia (segundo domingo de Pascua).\n\nOración para comenzar cada día:\nOh Jesús eterno, tú mismo me mandas que interceda por las distintas categorías de almas. En tu misericordia entra a través de las llagas de tu Pasión, que fueron abiertas para nosotros con la más profunda ternura de tu divina caridad.`,
+      },
+      {
+        title: "Novena Divina Misericordia — Días 1 al 3",
+        text: `DÍA 1 — Por toda la humanidad, especialmente los pecadores:\n"Hoy tráeme a toda la humanidad, especialmente a todos los pecadores, e immérgela en el océano de mi misericordia."\nPadre Eterno, dirige tu mirada misericordiosa a toda la humanidad... (Coronilla de la Divina Misericordia)\n\nDÍA 2 — Por las almas de los sacerdotes y religiosos:\n"Hoy tráeme las almas de los sacerdotes y religiosos, e introdúcelos en mi insondable misericordia."\nPadre Eterno, te ofrezco los cuerpos y las almas, los trabajos, las mortificaciones, los ayunos de todos los sacerdotes y religiosos...\n\nDÍA 3 — Por todas las almas piadosas y fieles:\n"Hoy tráeme todas las almas piadosas y fieles, e introdúcelas en el río de mi compasión."\nPadre Eterno, dirige tu mirada misericordiosa a las almas fieles como herencia de tu Hijo...`,
+      },
+      {
+        title: "Novena Divina Misericordia — Días 4 al 6",
+        text: `DÍA 4 — Por los que no conocen a Dios y los que no creen en Jesús:\n"Hoy tráeme a los paganos y a los que todavía no me conocen."\nPadre Eterno, dirige tu mirada misericordiosa a las almas que no te conocen, especialmente a todas aquellas encerradas en los errores del islam...\n\nDÍA 5 — Por los herejes y apóstatas:\n"Hoy tráeme las almas de los herejes y apóstatas, e introdúcelos en el océano de mi misericordia."\nPadre Eterno, tú que no rechazas nada de lo que te es ofrecido, mira con misericordia a estas almas...\n\nDÍA 6 — Por las almas mansas y humildes y las almas de los niños:\n"Hoy tráeme las almas mansas y humildes y las almas de los niños, e introdúcelas en mi misericordia."\nPadre Eterno, dirige tu mirada misericordiosa a las almas mansas, humildes y a las almas de los niños...`,
+      },
+      {
+        title: "Novena Divina Misericordia — Días 7 al 9",
+        text: `DÍA 7 — Por las almas que veneran y glorifican la Divina Misericordia:\n"Hoy tráeme las almas que veneran y glorifican mi misericordia, e introdúcelas en el gozo de mi misericordia."\nPadre Eterno, dirige tu mirada a las almas que glorifican y veneran tu mayor atributo: tu insondable misericordia...\n\nDÍA 8 — Por las almas del purgatorio:\n"Hoy tráeme las almas que están en la prisión del purgatorio, e introdúcelas en el abismo de mi misericordia."\nPadre Eterno, te ofrezco el Cuerpo y la Sangre, el Alma y la Divinidad de tu amantísimo Hijo por las almas que sufren en el purgatorio...\n\nDÍA 9 — Por las almas tibias:\n"Hoy tráeme las almas tibias, e introdúcelas en el abismo de mi misericordia."\nPadre Eterno, dirige tu mirada misericordiosa a las almas tibias que son como un corazón agonizante... que el rayo de tu gracia las transforme.\n\nAmén.`,
+      },
+      {
+        title: "Coronilla de la Divina Misericordia",
+        text: `Se reza en el rosario normal.\n\nComienzo:\nPadre Nuestro... Ave María... Credo...\n\nEn las cuentas grandes (Padre Nuestro):\n"Padre Eterno, te ofrezco el Cuerpo y la Sangre, el Alma y la Divinidad de tu amantísimo Hijo, nuestro Señor Jesucristo, en expiación de nuestros pecados y los del mundo entero."\n\nEn las diez cuentas pequeñas (Ave María):\n"Por su dolorosa Pasión, ten misericordia de nosotros y del mundo entero."\n\nAl final (3 veces):\n"Santo Dios, Santo Fuerte, Santo Inmortal, ten piedad de nosotros y del mundo entero."`,
+      },
+      {
+        title: "Novena a la Virgen María — Introducción",
+        text: `Esta novena puede rezarse antes de cualquier fiesta mariana: la Inmaculada Concepción (8 diciembre), la Asunción (15 agosto), Nuestra Señora del Carmen (16 julio), la Anunciación (25 marzo) o en cualquier momento del año.\n\nOración inicial para cada día:\nDios te salve, María, llena eres de gracia...\nSanta María, Madre de Dios y Madre mía, en este día de novena acudo a ti con confianza.\n\nSalve...`,
+      },
+      {
+        title: "Novena a la Virgen — Días 1 al 3",
+        text: `DÍA 1 — María, llena de gracia:\nSeñora, tú que fuiste llena de la gracia de Dios desde el primer instante de tu concepción, alcánzame la gracia que más necesito en este momento de mi vida. Dame un corazón limpio y disponible como el tuyo.\n(Ave María × 3)\n\nDÍA 2 — María, Madre de Jesús:\nSeñora, tú que dijiste "hágase en mí según tu palabra", dame esa disponibilidad total a la voluntad de Dios. Que yo también pueda decir "sí" a Dios en cada momento de mi vida.\n(Ave María × 3)\n\nDÍA 3 — María, Madre de la Iglesia:\nSeñora, que acompañaste a los apóstoles en el Cenáculo esperando al Espíritu Santo, intercede por tu Iglesia hoy. Que sea fiel a su misión, unida en el amor y valiente en el testimonio.\n(Ave María × 3)`,
+      },
+      {
+        title: "Novena a la Virgen — Días 4 al 6",
+        text: `DÍA 4 — María, Madre del Amor Hermoso:\nSeñora, enséñame a amar. Que mi amor no sea egoísta ni interesado, sino generoso como el tuyo. Que sepa amar a Dios sobre todas las cosas y al prójimo como a mí mismo.\n(Ave María × 3)\n\nDÍA 5 — María, Reina de la Paz:\nSeñora, en un mundo lleno de conflictos y divisiones, intercede por la paz. Que comience por mi corazón, se extienda a mi familia y llegue al mundo entero. María, Reina de la Paz, ruega por nosotros.\n(Ave María × 3)\n\nDÍA 6 — María, Consoladora de los afligidos:\nSeñora, tú que conociste el dolor junto a la cruz, consuela a todos los que sufren. En especial te encomiendo a los enfermos, los solos, los que lloran sin consuelo. Muéstrales que no están solos.\n(Ave María × 3)`,
+      },
+      {
+        title: "Novena a la Virgen — Días 7 al 9",
+        text: `DÍA 7 — María, Auxilio de los cristianos:\nSeñora, en tantas batallas de la vida, sé nuestro auxilio y defensa. Protégenos del mal, guíanos en la verdad y ayúdanos a perseverar hasta el final.\n(Ave María × 3)\n\nDÍA 8 — María, Estrella de la evangelización:\nSeñora, tú que llevaste a Cristo al mundo en tu seno, ayúdanos a llevar a Cristo a quienes nos rodean. Que seamos testigos alegres del Evangelio con nuestra vida.\n(Ave María × 3)\n\nDÍA 9 — María, Reina y Madre:\nSeñora, en este último día de novena me pongo totalmente en tus manos. Presenta al Señor mis oraciones, mis deseos, mis necesidades y las de todos los que me has encomendado.\nTú que todo lo puedes ante Dios, alcánzame lo que te pido si es para mayor gloria de Él y bien de mi alma.\n(Ave María × 3)\nSalve...\nAmén.`,
       },
     ],
   },
@@ -802,7 +883,6 @@ const styles = {
     margin: "12px 0 24px",
   },
   prayerText: {
-    fontSize: 16.5,
     lineHeight: 1.85,
     color: C.ink,
     whiteSpace: "pre-wrap",
@@ -935,6 +1015,7 @@ export default function App() {
   const [selectedPrayer, setSelectedPrayer] = useState(null);
   const [searchQ, setSearchQ] = useState("");
   const [favorites, setFavorites] = useState([]);
+  const [fontSize, setFontSize] = useState(17);
 
   const toggleFav = (catId, prayerTitle) => {
     const key = `${catId}::${prayerTitle}`;
@@ -1021,7 +1102,16 @@ export default function App() {
         <div style={styles.prayerDetail}>
           <h2 style={styles.prayerDetailTitle}>{prayer.title}</h2>
           <div style={styles.divider}>✦ ✦ ✦</div>
-          <p style={styles.prayerText}>{prayer.text}</p>
+          <div style={{ display:"flex", justifyContent:"center", gap:12, marginBottom:20, alignItems:"center" }}>
+            <button onClick={() => setFontSize(s => Math.max(13, s-1))}
+              style={{ background:"none", border:`1px solid ${C.border}`, borderRadius:20, width:32, height:32,
+                cursor:"pointer", fontSize:18, color:C.lavenderDark, display:"flex", alignItems:"center", justifyContent:"center" }}>−</button>
+            <span style={{ fontSize:12, color:C.inkSoft, letterSpacing:1 }}>Tamaño</span>
+            <button onClick={() => setFontSize(s => Math.min(26, s+1))}
+              style={{ background:"none", border:`1px solid ${C.border}`, borderRadius:20, width:32, height:32,
+                cursor:"pointer", fontSize:18, color:C.lavenderDark, display:"flex", alignItems:"center", justifyContent:"center" }}>+</button>
+          </div>
+          <p style={{ ...styles.prayerText, fontSize }}>{prayer.text}</p>
           <button
             style={{ ...styles.favBtn, ...(fav ? styles.favBtnActive : {}) }}
             onClick={() => toggleFav(prayer.catId || selectedCategory, prayer.title)}
@@ -1190,10 +1280,224 @@ export default function App() {
     </div>
   );
 
+
+  const getLiturgicalInfo = () => {
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = today.getMonth() + 1;
+    const day = today.getDate();
+
+    // Calculate Easter (Computus algorithm)
+    const a = year % 19;
+    const b = Math.floor(year / 100);
+    const c = year % 100;
+    const d = Math.floor(b / 4);
+    const e = b % 4;
+    const f = Math.floor((b + 8) / 25);
+    const g = Math.floor((b - f + 1) / 3);
+    const h = (19 * a + b - d - g + 15) % 30;
+    const i = Math.floor(c / 4);
+    const k = c % 4;
+    const l = (32 + 2 * e + 2 * i - h - k) % 7;
+    const m = Math.floor((a + 11 * h + 22 * l) / 451);
+    const easterMonth = Math.floor((h + l - 7 * m + 114) / 31);
+    const easterDay = ((h + l - 7 * m + 114) % 31) + 1;
+    const easter = new Date(year, easterMonth - 1, easterDay);
+
+    // Key dates based on Easter
+    const addDays = (d, n) => { const r = new Date(d); r.setDate(r.getDate() + n); return r; };
+    const ashWednesday = addDays(easter, -46);
+    const palmSunday = addDays(easter, -7);
+    const ascension = addDays(easter, 39);
+    const pentecost = addDays(easter, 49);
+    const corpusChristi = addDays(easter, 60);
+    const advent1 = (() => {
+      const christmas = new Date(year, 11, 25);
+      const dow = christmas.getDay();
+      return addDays(christmas, -(dow === 0 ? 28 : (dow + 21)));
+    })();
+
+    const toDateNum = d => d.getFullYear() * 10000 + (d.getMonth()+1) * 100 + d.getDate();
+    const todayNum = year * 10000 + month * 100 + day;
+    const christmas = new Date(year, 11, 25);
+    const epiphany = new Date(year, 0, 6);
+    const baptismLord = new Date(year, 0, 13);
+    const advent1Next = (() => {
+      const c2 = new Date(year+1, 11, 25);
+      const dow = c2.getDay();
+      return addDays(c2, -(dow === 0 ? 28 : (dow + 21)));
+    })();
+
+    let season, color, icon, description, prayer;
+
+    if (todayNum >= toDateNum(advent1) || todayNum < toDateNum(epiphany)) {
+      season = "Adviento / Navidad";
+      color = "#4a6fa5";
+      icon = "star";
+      if (todayNum >= toDateNum(new Date(year,11,25)) || month === 1) {
+        season = "Navidad";
+        color = C.gold;
+        description = "Celebramos el nacimiento de nuestro Señor Jesucristo. Tiempo de gozo y gratitud.";
+        prayer = "Oh Dios, que de manera admirable creaste al hombre y de manera más admirable lo restauraste, concédenos participar de la divinidad de tu Hijo, que se dignó participar de nuestra humanidad. Amén.";
+      } else {
+        description = "Tiempo de espera y preparación para la venida del Señor. Cuatro semanas de conversión y esperanza.";
+        prayer = "Ven, Señor Jesús. Maranatha. Despierta nuestros corazones para que preparemos los caminos de tu llegada. Que la espera no nos adormezca sino que nos mantenga vigilantes y llenos de esperanza. Amén.";
+      }
+    } else if (todayNum >= toDateNum(epiphany) && todayNum < toDateNum(ashWednesday)) {
+      season = "Tiempo Ordinario";
+      color = C.green;
+      icon = "leaf";
+      description = "Tiempo para crecer en la fe y en el seguimiento de Jesús. Escuchamos su Palabra y aprendemos a vivir el Evangelio.";
+      prayer = "Señor Jesús, en este tiempo ordinario no hay nada ordinario: cada día es una oportunidad para seguirte más de cerca. Ayúdame a crecer en la fe, en la esperanza y en el amor. Amén.";
+    } else if (todayNum >= toDateNum(ashWednesday) && todayNum < toDateNum(easter)) {
+      season = "Cuaresma";
+      color = C.lavenderDark;
+      icon = "cross";
+      if (todayNum >= toDateNum(palmSunday)) {
+        season = "Semana Santa";
+        description = "La semana más santa del año. Acompañamos a Jesús en su Pasión, Muerte y Resurrección.";
+        prayer = "Señor crucificado, te adoro y te amo. Dame la gracia de acompañarte en tu Pasión con corazón agradecido. Que tu sacrificio no sea en vano en mi vida. Amén.";
+      } else {
+        description = "Cuarenta días de oración, ayuno y limosna para preparar la Pascua. Tiempo de conversión y penitencia.";
+        prayer = "Señor, en esta Cuaresma concédeme la gracia de la conversión. Ayúdame a orar más, a ayunar con sentido y a dar con generosidad. Que al llegar la Pascua, mi corazón esté más limpio y más cerca de ti. Amén.";
+      }
+    } else if (todayNum >= toDateNum(easter) && todayNum < toDateNum(pentecost)) {
+      season = "Tiempo Pascual";
+      color = C.gold;
+      icon = "sun";
+      description = "¡Aleluya! Cristo ha resucitado. Cincuenta días de gozo pascual hasta Pentecostés.";
+      prayer = "Señor resucitado, llena mi corazón del gozo de tu Resurrección. Que viva como hijo de la luz, testigo de tu victoria sobre la muerte. Aleluya. Amén.";
+    } else {
+      season = "Tiempo Ordinario";
+      color = C.green;
+      icon = "leaf";
+      description = "Tiempo para crecer en la fe y en el seguimiento de Jesús a lo largo del año.";
+      prayer = "Señor, en el tiempo ordinario de la vida, ayúdame a encontrarte en lo cotidiano. Que cada día sea una oportunidad de amarte más. Amén.";
+    }
+
+    const days = ["Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado"];
+    const months = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+
+    // Upcoming feast days
+    const feasts = [
+      { date: new Date(year,0,6), name: "Epifanía del Señor", emoji:"⭐" },
+      { date: new Date(year,1,2), name: "Presentación del Señor", emoji:"🕯️" },
+      { date: new Date(year,2,19), name: "San José", emoji:"⚒️" },
+      { date: new Date(year,2,25), name: "Anunciación del Señor", emoji:"🕊️" },
+      { date: ashWednesday, name: "Miércoles de Ceniza", emoji:"✝️" },
+      { date: palmSunday, name: "Domingo de Ramos", emoji:"🌿" },
+      { date: addDays(easter,-3), name: "Jueves Santo", emoji:"🍞" },
+      { date: addDays(easter,-2), name: "Viernes Santo", emoji:"✝️" },
+      { date: addDays(easter,-1), name: "Sábado Santo", emoji:"🕯️" },
+      { date: easter, name: "Pascua de Resurrección", emoji:"🎉" },
+      { date: ascension, name: "Ascensión del Señor", emoji:"☁️" },
+      { date: pentecost, name: "Pentecostés", emoji:"🔥" },
+      { date: corpusChristi, name: "Corpus Christi", emoji:"🍞" },
+      { date: new Date(year,5,29), name: "San Pedro y San Pablo", emoji:"⛵" },
+      { date: new Date(year,7,15), name: "Asunción de María", emoji:"🌹" },
+      { date: new Date(year,10,1), name: "Todos los Santos", emoji:"👑" },
+      { date: new Date(year,10,2), name: "Fieles Difuntos", emoji:"🙏" },
+      { date: new Date(year,11,8), name: "Inmaculada Concepción", emoji:"💜" },
+      { date: advent1, name: "1er Domingo de Adviento", emoji:"🕯️" },
+      { date: christmas, name: "Navidad del Señor", emoji:"⭐" },
+    ].filter(f => toDateNum(f.date) >= todayNum)
+     .sort((a,b) => toDateNum(a.date) - toDateNum(b.date))
+     .slice(0, 5);
+
+    return {
+      season, color, icon, description, prayer,
+      dateStr: `${days[today.getDay()]}, ${day} de ${months[month-1]} de ${year}`,
+      feasts,
+      months,
+    };
+  };
+
+  const renderCalendar = () => {
+    const info = getLiturgicalInfo();
+    const { season, color, icon, description, prayer, dateStr, feasts } = info;
+    return (
+      <div style={{ padding:"20px 16px 100px" }}>
+        {/* Date header */}
+        <div style={{ textAlign:"center", marginBottom:20 }}>
+          <div style={{ fontSize:12, color:C.inkSoft, letterSpacing:2, textTransform:"uppercase", marginBottom:4 }}>Hoy es</div>
+          <div style={{ fontSize:16, color:C.ink, fontWeight:500 }}>{dateStr}</div>
+        </div>
+
+        {/* Current season card */}
+        <div style={{ background:C.cardBg, border:`2px solid ${color}30`, borderRadius:16,
+          padding:"20px 18px", marginBottom:16, borderLeft:`4px solid ${color}` }}>
+          <div style={{ display:"flex", alignItems:"center", gap:12, marginBottom:12 }}>
+            <div style={{ width:44, height:44, borderRadius:12, background:`${color}15`,
+              display:"flex", alignItems:"center", justifyContent:"center", flexShrink:0 }}>
+              <Icon type={icon} size={28} color={color} />
+            </div>
+            <div>
+              <div style={{ fontSize:11, color:C.inkSoft, letterSpacing:2, textTransform:"uppercase" }}>Tiempo litúrgico</div>
+              <div style={{ fontSize:19, fontWeight:600, color, marginTop:2 }}>{season}</div>
+            </div>
+          </div>
+          <p style={{ fontSize:14, color:C.inkSoft, lineHeight:1.7, marginBottom:16 }}>{description}</p>
+          <div style={{ borderTop:`1px solid ${C.border}`, paddingTop:14 }}>
+            <div style={{ fontSize:11, color:C.inkSoft, letterSpacing:2, marginBottom:8, textTransform:"uppercase" }}>Oración del tiempo</div>
+            <p style={{ fontSize:15, color:C.ink, lineHeight:1.8, fontStyle:"italic" }}>{prayer}</p>
+          </div>
+        </div>
+
+        {/* Upcoming feasts */}
+        <div style={{ marginBottom:16 }}>
+          <h3 style={{ fontSize:14, color:C.inkSoft, letterSpacing:2, textTransform:"uppercase",
+            marginBottom:12, paddingLeft:4 }}>Próximas fiestas</h3>
+          {feasts.map((feast, i) => {
+            const d = feast.date;
+            const ms = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
+            const daysUntil = Math.round((feast.date - new Date(new Date().setHours(0,0,0,0))) / 86400000);
+            return (
+              <div key={i} style={{ background:C.cardBg, border:`1px solid ${C.border}`,
+                borderRadius:12, padding:"12px 16px", marginBottom:8,
+                display:"flex", alignItems:"center", gap:12 }}>
+                <div style={{ width:44, height:44, background:`${C.lavenderLight}40`, borderRadius:10,
+                  display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center", flexShrink:0 }}>
+                  <span style={{ fontSize:13, fontWeight:700, color:C.lavenderDark, lineHeight:1 }}>{d.getDate()}</span>
+                  <span style={{ fontSize:10, color:C.inkSoft }}>{ms[d.getMonth()]}</span>
+                </div>
+                <div style={{ flex:1 }}>
+                  <div style={{ fontSize:14, color:C.ink, fontWeight:500 }}>{feast.emoji} {feast.name}</div>
+                  <div style={{ fontSize:11, color:C.inkSoft, marginTop:2 }}>
+                    {daysUntil === 0 ? "¡Hoy!" : daysUntil === 1 ? "Mañana" : `En ${daysUntil} días`}
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Color legend */}
+        <div style={{ background:C.cardBg, border:`1px solid ${C.border}`, borderRadius:14, padding:"16px" }}>
+          <h3 style={{ fontSize:13, color:C.inkSoft, letterSpacing:2, textTransform:"uppercase", marginBottom:12 }}>Los tiempos litúrgicos</h3>
+          {[
+            { name:"Adviento", color:"#4a6fa5", desc:"4 semanas antes de Navidad" },
+            { name:"Navidad", color:C.gold, desc:"Del 25 dic al Bautismo del Señor" },
+            { name:"Cuaresma", color:C.lavenderDark, desc:"40 días antes de Pascua" },
+            { name:"Semana Santa", color:"#3a2a3f", desc:"Última semana de Cuaresma" },
+            { name:"Tiempo Pascual", color:C.gold, desc:"50 días de Pascua a Pentecostés" },
+            { name:"Tiempo Ordinario", color:C.green, desc:"El resto del año litúrgico" },
+          ].map((t,i) => (
+            <div key={i} style={{ display:"flex", alignItems:"center", gap:10, marginBottom:8 }}>
+              <div style={{ width:12, height:12, borderRadius:3, background:t.color, flexShrink:0 }} />
+              <span style={{ fontSize:13, color:C.ink, fontWeight:500, minWidth:110 }}>{t.name}</span>
+              <span style={{ fontSize:11, color:C.inkSoft }}>{t.desc}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  };
+
   const tabs = [
     { id: "home", label: "Oraciones", icon: "book" },
     { id: "search", label: "Buscar", icon: "star" },
     { id: "favorites", label: "Favoritos", icon: "heart" },
+    { id: "calendar", label: "Calendario", icon: "leaf" },
   ];
 
   return (
@@ -1203,6 +1507,7 @@ export default function App() {
         {tab === "home" && renderHome()}
         {tab === "search" && renderSearch()}
         {tab === "favorites" && renderFavorites()}
+        {tab === "calendar" && renderCalendar()}
       </div>
       <div style={styles.tabBar}>
         {tabs.map((t) => {
