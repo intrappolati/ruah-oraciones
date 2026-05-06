@@ -1341,14 +1341,32 @@ export default function App() {
         prayer = "Oh Dios, que de manera admirable creaste al hombre y de manera más admirable lo restauraste, concédenos participar de la divinidad de tu Hijo, que se dignó participar de nuestra humanidad. Amén.";
       } else {
         description = "Tiempo de espera y preparación para la venida del Señor. Cuatro semanas de conversión y esperanza.";
-        prayer = "Ven, Señor Jesús. Maranatha. Despierta nuestros corazones para que preparemos los caminos de tu llegada. Que la espera no nos adormezca sino que nos mantenga vigilantes y llenos de esperanza. Amén.";
+        const adventPrayers = [
+          "Ven, Señor Jesús. Maranatha. Despierta nuestros corazones para que preparemos los caminos de tu llegada. Que la espera no nos adormezca sino que nos mantenga vigilantes y llenos de esperanza. Amén.",
+          "Señor, prepara en mi corazón un lugar digno para tu venida. Que quite los obstáculos que me alejan de ti: el orgullo, el apego, el miedo. Ven, Señor Jesús. Amén.",
+          "Virgen María, tú que esperaste con fe la venida del Salvador, enséñame a esperar con paciencia y esperanza. Ven, Señor Jesús. Amén.",
+          "Señor, en este Adviento quiero convertirme. Que el Juan Bautista de mi corazón me llame a enderezar mis caminos y a prepararme para recibirte. Amén.",
+          "Ven, Emmanuel, Dios con nosotros. Que tu venida traiga paz a mi corazón, a mi familia y al mundo entero. Maranatha, ven Señor Jesús. Amén.",
+          "Señor, que en la espera no me quede con los brazos cruzados. Que el Adviento me mueva a hacer el bien, a dar de lo mío, a consolar a quien sufre. Ven, Señor Jesús. Amén.",
+          "Señor Jesús, luz que vienes a iluminar las tinieblas, disipa la oscuridad de mi alma. Que tu luz de Navidad sea primero luz en mi corazón. Amén.",
+        ];
+        prayer = adventPrayers[today.getDay()];
       }
     } else if (todayNum >= toDateNum(epiphany) && todayNum < toDateNum(ashWednesday)) {
       season = "Tiempo Ordinario";
       color = C.green;
       icon = "leaf";
       description = "Tiempo para crecer en la fe y en el seguimiento de Jesús. Escuchamos su Palabra y aprendemos a vivir el Evangelio.";
-      prayer = "Señor Jesús, en este tiempo ordinario no hay nada ordinario: cada día es una oportunidad para seguirte más de cerca. Ayúdame a crecer en la fe, en la esperanza y en el amor. Amén.";
+      const ordinaryPrayers1 = [
+        "Señor Jesús, en este tiempo ordinario no hay nada ordinario: cada día es una oportunidad para seguirte más de cerca. Ayúdame a crecer en la fe, en la esperanza y en el amor. Amén.",
+        "Señor, que tu Palabra sea lámpara para mis pasos y luz en mi camino. Que no me guíe por mis propios criterios sino por tu Evangelio. Amén.",
+        "Jesús, maestro y Señor, enséñame a amarte a ti en cada persona que encuentre hoy. Que vea tu rostro en el rostro de los demás. Amén.",
+        "Señor, dame corazón de siervo. Que no busque ser servido sino servir, como tú que viniste no a ser servido sino a dar tu vida. Amén.",
+        "Jesús, pan de vida, aliméntame con tu Palabra y tu Eucaristía. Que tu presencia me dé fuerza para este día. Amén.",
+        "Señor, que en este día ordinario encuentre momentos extraordinarios de tu presencia: en el silencio, en las personas, en la belleza de la creación. Amén.",
+        "Jesús, luz del mundo, ilumina mi camino de hoy. Que yo sea también un pequeño reflejo de tu luz para quienes me rodean. Amén.",
+      ];
+      prayer = ordinaryPrayers1[today.getDay()];
     } else if (todayNum >= toDateNum(ashWednesday) && todayNum < toDateNum(easter)) {
       season = "Cuaresma";
       color = C.lavenderDark;
@@ -1359,20 +1377,50 @@ export default function App() {
         prayer = "Señor crucificado, te adoro y te amo. Dame la gracia de acompañarte en tu Pasión con corazón agradecido. Que tu sacrificio no sea en vano en mi vida. Amén.";
       } else {
         description = "Cuarenta días de oración, ayuno y limosna para preparar la Pascua. Tiempo de conversión y penitencia.";
-        prayer = "Señor, en esta Cuaresma concédeme la gracia de la conversión. Ayúdame a orar más, a ayunar con sentido y a dar con generosidad. Que al llegar la Pascua, mi corazón esté más limpio y más cerca de ti. Amén.";
+        const lentPrayers = [
+          "Señor, en esta Cuaresma concédeme la gracia de la conversión. Ayúdame a orar más, a ayunar con sentido y a dar con generosidad. Que al llegar la Pascua, mi corazón esté más limpio y más cerca de ti. Amén.",
+          "Señor, que este tiempo de ayuno me enseñe a depender solo de ti. Que cuando sienta el hambre, me acuerde de que no solo de pan vive el hombre. Amén.",
+          "Señor, en esta Cuaresma quiero perdonar de verdad a quienes me han herido. Dame la gracia del perdón sincero, no solo de palabras. Amén.",
+          "Señor, enséñame a dar limosna con alegría y sin esperar nada a cambio. Que abra mis manos y mi corazón a los que tienen menos que yo. Amén.",
+          "Señor crucificado, que contemplar tu cruz me ayude a relativizar mis propios sufrimientos y a unirlos a los tuyos con amor. Amén.",
+          "Señor, que en este Viernes de Cuaresma me una de manera especial a tu Pasión. Ofrezco mis sacrificios de hoy por las almas que más te necesitan. Amén.",
+          "Señor, prepara mi corazón para la Pascua. Que la espera de la Resurrección llene de esperanza mis días de penitencia. Amén.",
+        ];
+        prayer = lentPrayers[today.getDay()];
       }
     } else if (todayNum >= toDateNum(easter) && todayNum < toDateNum(pentecost)) {
       season = "Tiempo Pascual";
       color = C.gold;
       icon = "sun";
+      const dayOfWeek = today.getDay();
+      const weekInPaschal = Math.floor((today - easter) / (7 * 86400000));
+      const paschalPrayers = [
+        "Señor resucitado, llena mi corazón del gozo de tu Resurrección. Que viva como hijo de la luz, testigo de tu victoria sobre la muerte. Aleluya. Amén.",
+        "Señor Jesús, tú que apareciste a los discípulos con las puertas cerradas, entra también en mi corazón cerrado. Disipa mis miedos y llénalo de tu paz. Aleluya. Amén.",
+        "Señor resucitado, como Tomás quiero tocarte y creer. Ayúdame a superar mis dudas y a proclamar: ¡Señor mío y Dios mío! Aleluya. Amén.",
+        "Señor Jesús, que hiciste arder el corazón de los discípulos de Emaús al explicarles las Escrituras, enciende también el mío en el amor a tu Palabra. Aleluya. Amén.",
+        "Señor resucitado, tú preparaste el desayuno a los apóstoles a la orilla del lago. Cuídame también a mí en las necesidades de cada día. Aleluya. Amén.",
+        "Buen Pastor, tú que diste tu vida por las ovejas, cuida de mí y de todos los que me has encomendado. Que nadie se pierda. Aleluya. Amén.",
+        "Señor Jesús, vid verdadera, que yo permanezca unido a ti para dar mucho fruto. Sin ti nada puedo hacer; contigo todo lo puedo. Aleluya. Amén.",
+        "Espíritu Santo, Paráclito prometido por Jesús, ven sobre mí. Enséñame todas las cosas y recuérdame todo lo que Jesús dijo. Aleluya. Amén.",
+      ];
       description = "¡Aleluya! Cristo ha resucitado. Cincuenta días de gozo pascual hasta Pentecostés.";
-      prayer = "Señor resucitado, llena mi corazón del gozo de tu Resurrección. Que viva como hijo de la luz, testigo de tu victoria sobre la muerte. Aleluya. Amén.";
+      prayer = paschalPrayers[weekInPaschal % paschalPrayers.length];
     } else {
       season = "Tiempo Ordinario";
       color = C.green;
       icon = "leaf";
       description = "Tiempo para crecer en la fe y en el seguimiento de Jesús a lo largo del año.";
-      prayer = "Señor, en el tiempo ordinario de la vida, ayúdame a encontrarte en lo cotidiano. Que cada día sea una oportunidad de amarte más. Amén.";
+      const ordinaryPrayers2 = [
+        "Señor, en el tiempo ordinario de la vida, ayúdame a encontrarte en lo cotidiano. Que cada día sea una oportunidad de amarte más. Amén.",
+        "Señor, que tu Palabra sea lámpara para mis pasos y luz en mi camino. Que no me guíe por mis propios criterios sino por tu Evangelio. Amén.",
+        "Jesús, maestro y Señor, enséñame a amarte a ti en cada persona que encuentre hoy. Que vea tu rostro en el rostro de los demás. Amén.",
+        "Señor, dame corazón de siervo. Que no busque ser servido sino servir, como tú que viniste no a ser servido sino a dar tu vida. Amén.",
+        "Jesús, pan de vida, aliméntame con tu Palabra y tu Eucaristía. Que tu presencia me dé fuerza para este día. Amén.",
+        "Señor, que en este día ordinario encuentre momentos extraordinarios de tu presencia: en el silencio, en las personas, en la belleza de la creación. Amén.",
+        "Jesús, luz del mundo, ilumina mi camino de hoy. Que yo sea también un pequeño reflejo de tu luz para quienes me rodean. Amén.",
+      ];
+      prayer = ordinaryPrayers2[today.getDay()];
     }
 
     const days = ["Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado"];
